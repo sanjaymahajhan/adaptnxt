@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.container > :first-child {
+  flex: 0 0 250px;
+  border-right: 1px solid #ccc;
+}
+
+.container > :last-child {
+  flex: 1;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
